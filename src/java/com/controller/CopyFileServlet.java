@@ -144,6 +144,7 @@ public class CopyFileServlet extends HttpServlet {
             in.close();
             out.close();
             System.out.println("File copied from " + src + " to " + dest);
+			System.out.println("Checking out");
         }
     }
 }
